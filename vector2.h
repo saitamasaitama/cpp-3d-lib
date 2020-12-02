@@ -12,7 +12,7 @@ struct Vector2:IisCross<Vector2>{
   bool isCross(Vector2 B){
     //座標を持たない直線
     //
-    return false;
+    return true;
   }
   static bool isCross(){
 
